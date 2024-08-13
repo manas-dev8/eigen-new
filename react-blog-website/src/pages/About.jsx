@@ -27,7 +27,7 @@ const About = () => {
           <div>let's make things work.</div>
         </div>
         <div className="flex justify-end bg-gray-500">
-          <img src="manas.png" alt="Manas" className="w-[300px] mr-2" />
+          <img src="manass.png" alt="Manas" className="w-[350px] mr-2" />
           <img src="shubh.png" alt="Shubhranshu" className="w-[300px]" />
         </div>
       </div>

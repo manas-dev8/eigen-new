@@ -54,9 +54,9 @@ const Home = () => {
       <div className='w-full bg-black h-1 '>
 
       </div>
-      {/* <div className='mx-w-7xl mx-auto '>
+      <div className='mx-w-7xl mx-auto '>
         <BlogPage />
-      </div> */}
+      </div>
     </div>
   )
 }

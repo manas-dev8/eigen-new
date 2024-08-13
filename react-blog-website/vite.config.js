@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['/src/main.jsx'], // Add your module here
+      external: [], // Leave this array empty unless you need to exclude specific dependencies
     },
   },
 });
+
