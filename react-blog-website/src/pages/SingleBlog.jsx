@@ -17,7 +17,7 @@ const SingleBlog = () => {
             {/* Blog details */}
             <div className='max-w-7xl mx-auto my-12 flex flex-col lg:flex-row gap-12 px-4'>
                 <div className='lg:w-3/4'>
-                    <img src={image} alt="Blog Image" className='w-full rounded mb-6 mt-8' />
+                    <img src={image} alt="Blog Image" className='w-full rounded mb-6 mt-16' />
                     <h2 className='text-3xl lg:text-5xl font-bold mb-4 text-gray-800 cursor-pointer'>{title}</h2>
                     <p className='mb-3 text-gray-600'>
                         <FaUser className='inline-flex items-center mr-2' /> {author} | {published_date}

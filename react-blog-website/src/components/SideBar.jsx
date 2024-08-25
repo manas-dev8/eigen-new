@@ -15,7 +15,7 @@ const SideBar = () => {
     return (
         <div>
             <div className='py-8'>
-                <h3 className='text-2xl font-semibold px-2'>Latest Blogs</h3>
+                <h3 className='text-2xl font-semibold px-2 mt-7'>Latest Blogs</h3>
                 <div>
                     {blogsdata.blogs.slice(0, 5).map((blogs) => (
                         <div key={blogs.id} className='my-5 border-b-2 border-spacing-2 px-4'>
