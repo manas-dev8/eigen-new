@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa6';
 import blogData from '../../../modern-react-js-blog-starter-files/api/blogsData.json';
 
+
 const SideBar = () => {
     const [popularBlogs, setPopularBlogs] = useState([]);
 
