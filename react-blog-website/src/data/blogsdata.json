@@ -3,7 +3,7 @@
     {
         "id": 3,
         "title": "Rise of Pornography on X",
-        "image": "/public/x.jpg",
+        "image": "/x.jpg",
         "category": "Research",
         "author": "Kshitij Bajpai",
         "authorPic": "author1.jpg",
@@ -18,7 +18,7 @@
       {
         "id": 4,
         "title": "What is the future of Computer Architecture",
-        "image": "/public/computer architecture.jpg",
+        "image": "/computer architecture.jpg",
         "category": "Research",
         "author": "Rashi Bajpai",
         "authorPic": "author1.jpg",
@@ -32,7 +32,7 @@
     {
         "id": 5,
         "title": "Youtube VS Ad-blockers",
-        "image": "/public/yt.jpg",
+        "image": "/yt.jpg",
         "category": "Research",
         "author": "Pranita Kute",
         "authorPic": "author1.jpg",
