@@ -5,11 +5,11 @@ import blogsdata from "../data/blogsdata.json";
 
 const BlogCards = () => {
   return (
-    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-7'>
+    <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-7'>
       {blogsdata.blogs.map((blogs) => (
         <Link to={`/blogs/${blogs.id}`} key={blogs.id} className='p-3 shadow-lg rounded cursor-pointer'>
           <div>
-            <img src={blogs.image} alt="" className='' />
+            <img src={blogs.image} alt="" className='w-full h-auto' />
           </div>
           <h3 className='mt-4 mb-2 font-bold hover:text-blue-600 cursor-pointer'>{blogs.title}</h3>
           <p className="mb-2 text-gray-700"><FaUser className='inline-flex items-center' />{blogs.author}</p>
