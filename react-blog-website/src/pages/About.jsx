@@ -29,9 +29,17 @@ const About = () => {
           <div>its us, Manas and Shubhranshu :)</div>
           <div>let's make things work.</div>
         </div>
-        <div className="flex flex-col lg:flex-row items-center">
-          <img src="manass.png" alt="Manas" className="w-full max-w-xs lg:max-w-md mb-4 lg:mb-0" />
-          <img src="shubh.png" alt="Shubhranshu" className="w-full max-w-xs lg:max-w-md" />
+        <div className="flex flex-col lg:flex-row items-center gap-4">
+          <img
+            src="manass.png"
+            alt="Manas"
+            className="w-full h-auto max-w-xs lg:max-w-md mb-4 lg:mb-0"
+          />
+          <img
+            src="shubh.png"
+            alt="Shubhranshu"
+            className="w-full h-auto max-w-xs lg:max-w-md"
+          />
         </div>
       </div>
     </div>
