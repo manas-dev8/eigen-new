@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className='pt-16 bg-gray-500 text-center text-white flex flex-col items-center justify-center'>
         <h1 className='text-4xl lg:text-7xl leading-snug font-bold mt-16'>About eigen</h1>
         {/* Optional: Add a description or image here if needed */}
