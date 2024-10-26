@@ -26,7 +26,19 @@ const SingleBlog = () => {
                     <h2 className='text-5xl font-bold mb-4 text-gray-800 cursor-pointer'>{title}</h2>
                     <p className='mb-3 text-gray-600'><FaUser className='inline-flex items-center mr-2' /> {author} | {published_date}</p>
                     <p className='mb-3 text-gray-600'><FaClock className='inline-flex items-center mr-2' />{reading_time}</p>
-                    <p className='text-l text-gray-500 mb-6 text-lg font-semibold '>{content}</p>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content1}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content2}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content3}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content4}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content5}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content6}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content7}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content8}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content9}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content10}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content11}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content12}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content13}</div>
                 </div>
                 <div className='lg:w-1/2 py-8'>
                      <SideBar /> 
