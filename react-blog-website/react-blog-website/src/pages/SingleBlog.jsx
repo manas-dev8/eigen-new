@@ -8,7 +8,7 @@ import blogsdata from "../data/blogsdata.json"
 const SingleBlog = () => {
     const { id } = useParams();
     const data = blogsdata.blogs.find(blogs => blogs.id === parseInt(id)); 
-    const { image, title, author, published_date, reading_time, content } = data;
+    const { image, title, author, published_date, reading_time, content1,content2, content3, content4, content5,content6, content7, content8, content9, content10, content11, content12, content13, content14, content15 } = data;
 
 
 
