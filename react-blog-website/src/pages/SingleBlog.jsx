@@ -7,7 +7,7 @@ import blogsdata from "../data/blogsdata.json";
 const SingleBlog = () => {
     const { id } = useParams();
     const data = blogsdata.blogs.find(blogs => blogs.id === parseInt(id)); 
-    const { image, title, author, published_date, reading_time, content1,content2, content3, content4, content5,content6, content7, content8, content9, content10 } = data;
+    const { image, title, author, published_date, reading_time, content1,content2, content3, content4, content5,content6, content7, content8, content9, content10, content11, content12, content13 } = data;
 
     return (
         <div>
@@ -33,6 +33,11 @@ const SingleBlog = () => {
                     <div className='text-base lg:text-lg text-gray-500 mb-6'>{content6}</div>
                     <div className='text-base lg:text-lg text-gray-500 mb-6'>{content7}</div>
                     <div className='text-base lg:text-lg text-gray-500 mb-6'>{content8}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content9}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content10}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content11}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content12}</div>
+                    <div className='text-base lg:text-lg text-gray-500 mb-6'>{content13}</div>
                 </div>
                 <div className='lg:w-1/4'>
                     <SideBar />
